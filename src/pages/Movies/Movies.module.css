@@ -1,0 +1,21 @@
+.moviesContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 1.5rem;
+  margin-top: 4rem;
+  justify-content: center; 
+  max-width: 60%; 
+  margin-left: auto; 
+  margin-right: auto; 
+}
+@media (max-width: 900px) {
+  .moviesContainer {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .moviesContainer {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,49 @@
+.details {
+  padding: 2rem;
+}
+
+.notFound {
+  padding: 2rem;
+  color: red;
+}
+.detailsWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem;
+  background-color: var(--primary-color);
+}
+
+.detailsCard {
+  background: var(--primary-color);
+  border-radius: 0.625rem;
+  padding: 1.5625rem;
+  max-width: 31.25rem;
+  
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.detailsCard h2 {
+  margin-bottom: 1rem;
+  font-size: 1.8rem;
+}
+
+.detailsCard p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 1.25rem;
+}
+
+.backBtn {
+  padding: 0.625rem 1.25rem;
+  border: none;
+  background-color: var(--button);
+  color: var(--primary-color);
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.backBtn:hover {
+  background-color: var(--hover-button);
+}
